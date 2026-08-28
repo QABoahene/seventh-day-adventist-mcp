@@ -1,0 +1,25 @@
+[project]
+name = "adventist-mcp"
+version = "0.1.0"
+description = "MCP server for Seventh-day Adventist Bible study: scripture, the 28 Fundamental Beliefs, and Ellen G. White writings."
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=2.1",
+    "httpx>=0.27",
+    "pypdf>=4.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
+
+[project.scripts]
+adventist-mcp = "adventist_mcp.server:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
