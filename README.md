@@ -1,7 +1,6 @@
 # Adventist Study MCP
 
-An MCP server for Seventh-day Adventist Bible study. It answers not just "what does this
-verse say?" but "why do Adventists believe this?" — connecting a topic to Scripture, to
+An MCP server for Seventh-day Adventist Bible study. It answers not just "what does this verse say?" but "why do Adventists believe this?" — connecting a topic to Scripture, to
 the church's official doctrinal statement, and to classic Adventist writings, with
 citations throughout.
 
